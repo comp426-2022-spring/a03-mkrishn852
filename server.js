@@ -1,12 +1,14 @@
 const http = require('http')
 
 // Require Express.js
-const express = require('express')
+const express = require("express")
 const app = express()
 
-var args = minimist(process.argv.slice[2])
-var name = 'port'
-const port = argument[name] || 5000
+const args = require('minimist')(process.argv.slice(2))
+
+args['port']
+
+const port = args.port || process.env.PORT || 5000
 
 // Start an app server
 const server = app.listen(port, () => {
