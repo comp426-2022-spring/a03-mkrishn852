@@ -99,7 +99,6 @@ function flipACoin(call) {
     flip: coinFlip(), 
     result: "", 
   };
-
   if (statement.call === statement.flip) { 
     statement.result = "win";  
   } else {
