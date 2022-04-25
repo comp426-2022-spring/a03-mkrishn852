@@ -65,7 +65,7 @@ function coinFlip() {
 
 function coinFlips(flips) {
   let flipList = [];
-  let i = 0;
+  let i = 0; 
   for (let i=0; i < flips; i++) {
     flipList.push(coinFlip());
   }
