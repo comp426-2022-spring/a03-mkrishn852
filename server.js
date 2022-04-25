@@ -31,7 +31,7 @@ app.get('/app/flips/:number', (req, res) => {
   var realFlips = coinFlips(req.params.number) 
   var summaryFlips = countFlips(realFlips)
   res.status(200).json({
-      'raw': realFlips,
+      'raw': realFlips, 
       'summary': summaryFlips
   })
 });
