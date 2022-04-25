@@ -96,7 +96,7 @@ function countFlips(array) {
 function flipACoin(call) {
   var statement = {
     call,
-    flip: coinFlip(),
+    flip: coinFlip(), 
     result: "",
   };
   if (statement.call === statement.flip) {
