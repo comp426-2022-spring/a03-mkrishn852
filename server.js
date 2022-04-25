@@ -32,7 +32,7 @@ app.get('/app/flips/:number', (req, res) => {
   var summaryFlips = countFlips(realFlips)
   res.status(200).json({
       'raw': realFlips, 
-      'summary': summaryFlips
+      'summary': summaryFlips 
   })
 });
 
